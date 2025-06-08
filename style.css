@@ -1,6 +1,40 @@
 body {
-  background-color: #f0f0f0;
-  font-family: Arial, sans-serif;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 0 20px;
+}
+
+header {
+  background: #4a90e2;
+  color: white;
+  padding: 60px 20px;
   text-align: center;
-  padding-top: 50px;
+}
+
+section {
+  padding: 40px 0;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+.project {
+  background: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-left: 4px solid #4a90e2;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  color: #aaa;
+  font-size: 0.9em;
 }
